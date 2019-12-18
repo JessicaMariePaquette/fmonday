@@ -1,0 +1,49 @@
+.weather{
+	display: grid;
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr;
+background-color:#ffe579;
+	width:375px;
+	height:667px;
+justify-items: center;
+align-items: center;
+position: fixed;
+transform: translateY(100%);
+transition: transform 1s;
+
+	p{
+		font-size: 3rem;
+		font-weight: 600;
+	}
+
+	h1{
+		font-family: 'Nunito', sans-serif;
+		font-size: 3rem;
+		color:#414042;
+		grid-column: 2;
+		grid-row: 1;
+	}
+
+	.today-high{
+		grid-column: 1;
+		grid-row: 3;
+
+	}
+
+	.today-icon{
+		grid-column: 2;
+		grid-row: 2;
+
+	}
+
+	.today-low{
+		grid-column: 3;
+		grid-row: 3;
+
+	}
+}
+
+.slide {
+  transform: translateY(-100%);
+}
+

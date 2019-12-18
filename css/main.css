@@ -1,0 +1,83 @@
+.load {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+  background-color: #ffe579;
+  height: 100%; }
+  .load img {
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 4rem;
+    grid-row: 1; }
+
+.button {
+  width: 90%;
+  font-family: 'Nunito', sans-serif;
+  background-color: #FFE579;
+  color: #414042;
+  font-weight: 900;
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-decoration: none;
+  text-align: center;
+  color: #414042;
+  border: 4px solid #414042;
+  grid-row: 2;
+  justify-self: center;
+  align-self: center; }
+
+a:link {
+  color: #414042; }
+
+a:visited {
+  color: #414042; }
+
+a:hover {
+  color: #7A5FC4; }
+
+body {
+  width: 375px;
+  height: 667px; }
+
+p {
+  font-family: 'Nunito', sans-serif;
+  color: #414042; }
+
+.weather {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #ffe579;
+  width: 375px;
+  height: 667px;
+  justify-items: center;
+  align-items: center;
+  position: fixed;
+  transform: translateY(100%);
+  transition: transform 1s; }
+  .weather p {
+    font-size: 3rem;
+    font-weight: 600; }
+  .weather h1 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 3rem;
+    color: #414042;
+    grid-column: 2;
+    grid-row: 1; }
+  .weather .today-high {
+    grid-column: 1;
+    grid-row: 3; }
+  .weather .today-icon {
+    grid-column: 2;
+    grid-row: 2; }
+  .weather .today-low {
+    grid-column: 3;
+    grid-row: 3; }
+
+.slide {
+  transform: translateY(-100%); }
+
+/*# sourceMappingURL=main.css.map */
